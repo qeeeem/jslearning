@@ -1,0 +1,21 @@
+@keyframes change-color {
+    0% {background-color:rgb(134, 34, 34); top:10px; left:20px; size: 30px;}
+    10% {background-color:rgb(12, 66, 154);top:15px; left:30px; size: 5px;}
+    20% {background-color:rgb(134, 34, 34);top:50px; left:26px; size: 89px;}
+    30% {background-color:rgb(12, 154, 36);top:42px; left:85px; size: 2px;}
+    40% {background-color:rgb(134, 34, 34);top:82px; left:10px; size: 165px;}
+    50% {background-color:rgb(217, 217, 17);top:12px; left:31px; size: 33px;}
+}
+
+.box{
+    width:200px;
+    height: 200px;
+    background-color: rgb(132, 145, 146);
+    position:relative;
+}
+.box-animation:hover{
+    animation-name:change-color;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    /* animation-delay: 2s; */
+}

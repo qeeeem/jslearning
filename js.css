@@ -1,0 +1,100 @@
+div p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007a2f86;
+    margin: 10%;
+}
+
+div input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007a2f86;
+    margin: 10%;
+}
+
+div input:focus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff000086;
+    margin: 10%;
+}
+
+
+
+
+body{
+    background-color: #e76f51;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    background-color: #0b123b;
+    width: 400px;
+    color: white;
+    padding:40px;
+    box-shadow: 10px 10px 20px #00000086;
+    text-align: center;
+}
+
+.login input{
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    background: none;
+    padding:10px;
+    font-size: 15px;
+    border-radius: 22px;
+    color: white;
+    outline: none;
+}
+
+.login input[type="text"], .login input[type="password"]{
+    border: 2px solid #3498db;
+    width: 220px;
+}
+
+.login input[type="submit"]{
+    width: 150px;
+    border-radius: 20px;
+    border:2px solid #007a2f;
+    cursor: pointer;
+}
+
+.login input[type="submit"]:hover{
+    background-color: #0a8a3b;
+    width: 170px;;
+}
+
+.login input[type="text"]:focus, .login input[type="password"]:focus{
+    width:250px;
+    border-color: #007a2f;
+    border-radius: 20px;
+    transition:0.5s;
+}
+
+.login input[type="text"]:hover, .login input[type="password"]:hover{
+    width:250px;
+    border-color: #007a2f;
+    border-radius: 20px;
+    transition:1.5s;
+}
+
+input [type="search"]{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    color: white;
+    background-color: transparent;
+}
+
+input [type="search"]:hover{
+    width: 800px;
+    background-color: #0a8a3b;
+    
+}

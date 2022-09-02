@@ -1,0 +1,28 @@
+/* wrap：宽高不够时自动换行换列 */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border:2px solid red;
+    justify-content:left;/* justify，center是主轴的中间，flex-end是放到区域结尾，space-around是水平均分*/
+    align-content: left;
+}
+
+.container div{
+    border:1px solid rgb(68, 156, 130);
+    padding:10px;
+    width:80px;
+    height:70px;
+
+}
+/* flex冒号后面的值表示整个flex里，这个属性（宽度或高度）拿几份，1就拿5+box-2+box-3之和的分之1份，5就5+box-2+box-3之和的分之5份
+flex默认是横着排列（row，用direction改竖着排），由左至右由上到下
+用order控制排列的顺序 */
+.box-1{
+}
+
+.box-2{
+}
+
+.box-3{
+}

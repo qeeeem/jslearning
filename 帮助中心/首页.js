@@ -1,0 +1,1 @@
+document.getElementById("01-01").innerHTML="这是第一课"; //JavaScript 同时接受双引号和单引号

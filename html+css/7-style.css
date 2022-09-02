@@ -1,0 +1,31 @@
+h1 {
+    background-color: grey;
+}
+.class-1{
+    color:forestgreen;
+}
+/* 加逗号，给不同标签套用同样样式 
+id是井号，class是点，标签直接写，没前缀
+不写具体标签，只写星号，将为所有标签套用同样样式
+*/
+#id-1, .class-1{
+    background-color: lightcoral;
+}
+/* ul li：找ul，再找li 
+    ul a：找ul 再逐层找a*/
+ul li{
+    color: rgb(129, 158, 16);
+}
+ul li a{
+    background-color: rgb(16, 40, 158,0.2);
+}
+/* 按属性找，用中括号括起属性，有该属性的标签将获得该样式 */
+[type]:hover{
+    background-color:mediumseagreen;
+}
+[href]{
+    background-color:rgba(191, 150, 201, 0.484);
+}
+h1:hover{
+    background-color: rgba(165, 42, 42, 0.311);
+}

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ch">
+    <head>
+        <title>W3.CSS Template</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body {
+                font-family: "Lato", sans-serif
+            }
+
+            .mySlides {
+                display: none
+            }
+        </style>
+    </head>
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i
+                    class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+            <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INTRO</a>
+            <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+                    <a href="#" class="w3-bar-item w3-button">Extras</a>
+                    <a href="#" class="w3-bar-item w3-button">Media</a>
+                </div>
+            </div>
+            <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i
+                    class="fa fa-search"></i></a>
+        </div>
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+        <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+        <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+        <!-- Automatic Slideshow Images -->
+        <div class="mySlides w3-display-container w3-center">
+            <img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/07/grogu.jpg" style="width: 100%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3>Grogu</h3>
+                <p><b>We All Love Grogu!!</b></p>
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="https://i0.wp.com/dapsmagic.com/wp-content/uploads/2022/07/Baby-Grogu-Animatronic-Featured-Image-1.jpeg?w=1280&ssl=1" style="width:100%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3>gROGU</h3>
+                <p><b>The Best.</b></p>
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="https://www.sideshow.com/wp/wp-content/uploads/2021/03/Grogu-Force-Powers.jpg" style="width:100%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3>Grogu</h3>
+                <p><b>baaaaaaaaaaabyyyyyyyyyyy</b></p>
+            </div>
+        </div>
+
+        <!-- The Band Section -->
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+            <h2 class="w3-wide">I N T R O</h2>
+            <p class="w3-opacity"><i>We love Hroguk!</i></p>
+            <p class="w3-margin-left">
+                What is Hroguk?<br/>
+                Hroguk is short for Hulk and Grogu.<br/>
+                Both of them are powerful in different ways.<br/>
+                Hulk smashes it all.<br/>
+                Grogu uses the force (to smash it all <3)
+            </p>
+            <div class="w3-row w3-padding-32">
+                <div class="w3-third">
+                    <p>HULK BEAR</p>
+                    <img src="https://i.ebayimg.com/images/g/jawAAOSwDUxfyYoJ/s-l1600.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+                </div>
+                <div class="w3-third">
+                    <p>baaaaabyyyyy</p>
+                    <img src="https://static.wikia.nocookie.net/starwars/images/4/43/TheChild-Fathead.png/revision/latest/scale-to-width-down/1000?cb=20201031231040" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+                </div>
+                <div class="w3-third">
+                    <p>HULK BEAR</p>
+                    <img src="https://i.ebayimg.com/images/g/jawAAOSwDUxfyYoJ/s-l1600.jpg" class="w3-round" alt="Random Name" style="width:60%">
+                </div>
+            </div>
+        </div>
+
+        <!-- The Tour Section -->
+        <div class="w3-black" id="tour">
+            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+                <h2 class="w3-wide w3-center">TOUR DATES</h2>
+                <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
+
+                <ul class="w3-ul w3-border w3-white w3-text-grey">
+                    <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+                    <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+                    <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
+                </ul>
+
+                <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="https://www.w3schools.com/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>New York</b></p>
+                            <p class="w3-opacity">Fri 27 Nov 2016</p>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('ticketModal').style.display='block'">Buy
+                                Tickets</button>
+                        </div>
+                    </div>
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="https://www.w3schools.com/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Paris</b></p>
+                            <p class="w3-opacity">Sat 28 Nov 2016</p>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('ticketModal').style.display='block'">Buy
+                                Tickets</button>
+                        </div>
+                    </div>
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="https://www.w3schools.com/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>San Francisco</b></p>
+                            <p class="w3-opacity">Sun 29 Nov 2016</p>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('ticketModal').style.display='block'">Buy
+                                Tickets</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ticket Modal -->
+        <div id="ticketModal" class="w3-modal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+                <header class="w3-container w3-teal w3-center w3-padding-32">
+                    <span onclick="document.getElementById('ticketModal').style.display='none'"
+                        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+                    <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+                </header>
+                <div class="w3-container">
+                    <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+                    <input class="w3-input w3-border" type="text" placeholder="How many?">
+                    <p><label><i class="fa fa-user"></i> Send To</label></p>
+                    <input class="w3-input w3-border" type="text" placeholder="Enter email">
+                    <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i
+                            class="fa fa-check"></i></button>
+                    <button class="w3-button w3-red w3-section"
+                        onclick="document.getElementById('ticketModal').style.display='none'">Close <i
+                            class="fa fa-remove"></i></button>
+                    <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Contact Section -->
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+            <h2 class="w3-wide w3-center">CONTACT</h2>
+            <!-- <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p> -->
+            <div class="w3-row w3-padding-32">
+                <div class="w3-col m6 w3-large w3-margin-bottom">
+                    <i class="fa fa-twitter" style="width:30px"></i> Chicago, US<br>
+                    <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+                    <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+                </div>
+                <div class="w3-col m6">
+                    <form action="/action_page.php" target="_blank">
+                        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                            <div class="w3-half">
+                                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                            </div>
+                            <div class="w3-half">
+                                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                            </div>
+                        </div>
+                        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                        <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Page Content -->
+    </div>
+
+    <!-- Image of hulk -->
+    <img src="https://www.awn.com/sites/default/files/styles/original/public/image/attached/1049554-nas1040comp068721lfregev1121013-1280.jpg?itok=BbWVejMG" class="w3-image w3-greyscale-min" style="width:100%">
+
+    <p>
+        <div>
+            <br/>
+            <br/>
+        </div>
+    </p>
+    <!-- Footer.
+    <footer>
+        <i class="fa fa-facebook-official w3-hover-opacity" href="https://www.uniner.com/" style="cursor:pointer;" target="_blank"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <a class="w3-button w3-round-xxlarge w3-small w3-black w3-margin-bottom" href="https://www.w3schools.com/spaces" target="_blank">Start now</a>
+     Footer end. 
+    </footer>-->
+
+    <script>
+        // Automatic Slideshow - change image every 4 seconds
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 4000);
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        var modal = document.getElementById('ticketModal');
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
+    <!-- <button onclick="myFunction()">点我试试</button> 
+    <div id="myChart" style="max-width:700px; height:400px"></div>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+    var charts1 = google.charts.load('current',{packages:['corechart']});
+    var charts2 = google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+// Set Data
+var data = google.visualization.arrayToDataTable([
+  ['Price', 'Size'],
+  [50,7],[60,8],[70,8],[80,9],[90,9],[100,9],
+  [110,10],[120,11],[130,14],[140,14],[150,15]
+  ]);
+// Set Options
+var options = {
+  title: 'House Prices vs Size',
+  hAxis: {title: 'Square Meters'},
+  vAxis: {title: 'Price in Millions'},
+  legend: 'none'
+};
+// Draw Chart
+var chart = new google.visualization.LineChart(document.getElementById('myChart'));
+chart.draw(data, options);
+}
+</script>
+     <!-- <script>
+        const points = [40, 100, 1, 5, 25, 10];
+        points.sort(function(a,b){return a -b});
+        console.log(points);
+
+        function myFunction(){
+            var x = parseInt(prompt("输入第一个数"));
+            var y = parseInt(prompt("输入第二个数"));
+            var z = parseInt(prompt("输入第三个数"));
+            const xyz = [x,y,z];
+            // xyz.sort(function (a,b){return a-b});
+            Math.max.apply(null,xyz);
+        }
+
+        var arr = [70, 65, 3, 21, 58, 93, 12, 82, 15, 34, 73, 2, 12];
+
+        var max = arr[0];
+
+        for (var i = 0; i<arr.length; i ++){
+            if (arr[i] >= max){
+                max = arr[i];
+                console.log('setting max to ' + max);
+            }
+        }
+        console.log(max);
+        
+
+        var min = arr[0];
+        for (var i = 0; i<arr.length; i ++){
+                if (arr[i] < min){
+                    min = arr[i];
+                    console.log('setting min to ' + min);
+            }
+        }
+        console.log(min);
+
+        arr.sort(function(a,b){
+            return a-b
+        })
+        prompt("最小值是："+ arr[0]);
+        arr.sort(function(a,b){
+            return b-a
+        })
+        prompt("最大值是："+arr[0])
+     </script>  -->
